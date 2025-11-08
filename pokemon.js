@@ -29,3 +29,4 @@ async function fetchData(){
         console.error(error);
     }
 }
+//console.log("hello")
