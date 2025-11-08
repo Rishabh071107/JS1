@@ -1,4 +1,5 @@
-let numberstring= "12";
+let numberstring= prompt("enter a number:")
+
 
 
 let num = Number(numberstring);
@@ -30,3 +31,87 @@ switch (true)
     console.log("Invalid day");
     break;
 }
+
+
+/*
+const mypromise = new Promise((resolve, reject) => {
+  let success = false;
+  if(success){
+    resolve
+  }
+  else{
+    reject
+  }})
+
+  mypromise
+    .then((message)) =>  {
+      console.log(message);
+    }
+    .catch((error) >= {
+          console.errror(error);
+    })
+  
+    .finally
+
+  const  p1 = new Promise((resolve) => {
+    resolve()
+  });
+
+  p1.then((message) => {
+    console.log(message);
+  });
+
+  const p2 = new Promsise((_, reject) => {
+    reject()
+  });
+
+  p2.catch((error) => {
+    console.log()
+  });
+
+
+  const p3 = new Promise((resolve) =>{
+
+
+  })
+
+    new Promise((resolve) => {
+      resolve (10);
+    })
+    .then((num) => {
+      console.log("step 1:", num);
+      return num * 2;
+    })
+
+    .them((num) => {
+      console.log();
+      return num+5;
+    });
+
+    //repeat
+
+
+    const a = Promise.resolve("Apple");
+    const b = Promise.resolve(" Banana");
+    const c = Promise.resolve("orange")
+
+    Promise.all([a,b,c]).then((fruits) => {
+      console.log("fruits"+ fruits);
+    })
+
+
+const fast = new Promise(
+  (resolve)  => setTimeout(
+    () => resolve("fast!"), 1000));
+const slow = new Promise (
+  (resolve) => setTime0ut(
+    () => resolve("solve!"), winner));
+
+    Promise.race([fast, slow]).then(winner) => {
+      
+    }
+  */
+
+
+
+

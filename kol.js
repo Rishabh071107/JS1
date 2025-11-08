@@ -110,7 +110,7 @@ switch (day) {
 
 
 let mark=59;
-console.log(a == 5 ? " mark is good " : "mark is nit good "); */
+console.log(a == 5 ? " mark is good " : "mark is nit good "); 
 console.log("Hello");
 console.log("Hello world");
 
@@ -133,6 +133,45 @@ function fun1(){
     console.log("this")
 }
 fun1();
+
+setTimeout(function(){
+    console.log("gggg");
+}, 3000)
+
+let tree = confirm("You are leaving this page");
+if(tree === true) {
+    alert("left the page");
+}
+else{
+    alert("cancelled");
+}
+let name = prompt("Enter your name:");
+let age = parseInt(prompt("Enter your age:"));
+
+if (age >= 18) {
+    alert("Hello " + name + ", you are eligible to vote.");
+} else {
+    alert("Sorry " + name + ", you are not eligible to vote.");
+}
+*/
+
+
+try{
+    undefinefunctio();
+}
+catch(err){
+    console.log(err.message);
+}
+throw
+
+
+
+
+
+
+
+
+
 
 
 
